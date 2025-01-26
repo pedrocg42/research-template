@@ -169,3 +169,26 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Avoiding to upload the cache
+cache*
+log
+
+# Avoid to upload VSCode settings
+.vscode
+*.spec
+*.egg-info
+build
+test
+
+# Avoid to upload venv files
+.venv*
+
+# Avoid to upload Jupyter notebook checkpoints
+notebooks/.ipynb_checkpoints/*
+
+# Avoid to upload results
+*results*
+
+# Avoiding to upload the datasets
+datasets/*
